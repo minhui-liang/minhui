@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /*fix the element width*/
+  }
+
+  header nav {
+    width:100%;
+    background-color: black;
+  }
+  
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    /*delete the front dot*/
+    padding-left: 0.5rem;
+  }
+  
+  header nav ul li {
+    padding: 0.5rem 0.75rem;
+  }
+  
+  header nav ul li a {
+    color: #a3a2a2;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    color: white;
+  }
+
+  header nav{
+    font-size: 1.25rem;
+  }
+
+  header h1{
+    background-color: #a3a2a2;
+}  
+.active{
+    
+    color: #fcf8f8;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+  }
+
+section.form form{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section.form{
+  flex: 1 1 600px;
+}
+
+section.contact{
+  flex: 1 1 500px;
+}
+
+section.form form div label{
+  font-size: 1.5rem;
+}
+
+
+main section form div input,textarea{
+  background-color: rgb(255, 185, 80);
+  padding: 0.5rem 0.25rem;
+  border:none;
+  width: 80%;
+  margin-bottom: 0.25rem;
+  vertical-align: top;
+  }
+
+main section form button{
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  width: 10vw;
+  background: rgb(255, 185, 80);
+  cursor: pointer;
+  padding:0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+}
+  main section form div input{
+    margin-left: 1rem;
+  }
+
+  div.line{
+    background-color: gray;
+    width:3px;
+  }
+
+  section.contact{
+    flex: 1 1 500px;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  main section{
+    font-size: 0.7rem;
+  }
+
+  footer img{
+    width: 75px;
+    height: 75px;
+    object-fit:cover;
+    margin: 1.5rem;
+  }
+
+  footer h2{
+    color:rgb(255, 185, 80);
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width:1100px){
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+      }
+
+    main section div iframe{
+      width: 80vw;
+      height: 80vh;
+    }
+
+    main section form button{
+      width: 30vw;
+    }
+
+    section.form form div label{
+      font-size: 1rem;
+    }
+
+    main section form div textarea{
+      margin-left: 1rem;
+    }
+
+    div.line{
+      
+      width:0px;
+    }
+
+      footer img{
+        width: 50px;
+        height: 50px;
+        object-fit:cover;
+        margin: 1rem;;
+      }
+
+    
+  }

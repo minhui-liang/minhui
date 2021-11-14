@@ -1,670 +1,221 @@
-<!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Minhui's website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-		<style>
-			.framebox{
-				display: flex;
-				flex-direction: column;
-				margin:2%;
-			}
-
-			.sbox{
-				display: flex;
-				margin: 1%;
-			}
-
-			.mybanner{
-				align-content: center;
-				background-position: center;
-				height: 90px;
-				background-image: url("images/banner.jpg");
-			}
-
-			.addShadow{
-				box-shadow: 0 0 40px #a0a0a0;
-			}
-
-			.starcolor{
-				color: rgb(252, 212, 82);
-				border-color: #000;
-				border-width: 2px;
-			}
-
-			.timeline-small {
-				max-width: 600px;
-				max-height: 630px;
-				overflow: hidden;
-				margin: 15px auto 0;
-				box-shadow: 0 0 40px #a0a0a0;
-				font-family: 'Open Sans', sans-serif;
-			}
-			.myheader {
-				background: url(https://unsplash.it/300/600/?random);
-				background-size: cover;
-				color: #fff;
-				position: relative;
-			}
-			.color-overlay {
-				padding: 3em 2em;
-				box-sizing: border-box;
-				background: rgba(78, 183, 231, 0.548);
-			}
-			.myheader-name {
-				font-size: 1.6em;
-			}
-			.myheader-sub {
-				text-transform: uppercase;
-				font-weight: 300;
-				font-size: 0.6em;
-				letter-spacing: 2px;
-				margin-top: 2px;
-			}
-			.timeline-small-body ul {
-				padding: 1em 0 0 2em;
-				margin: 0;
-				list-style: none;
-				position: relative;
-			}
-			.timeline-small-body ul::before {
-				content: ' ';
-				height: 100%;
-				width: 5px;
-				border:2px dashed rgb(153, 156, 156);
-				background-color: dashed #7ec7d4;
-				position: absolute;
-				top: 0;
-				left: 2.7em;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Index | Minhui's Personal Profile</title>
+	<meta name = "author" content = "Minhui Liang">
+	<meta name = "description" content="Minhui's Personal website including personal info, courses info, and projects info">
+	<link rel = "stylesheet" href = "./style/index_style.css">
+	<link rel = "stylesheet" href = "./style/animation.css">
+</head>
+<body>
+	<!--animation-->
+	<div class = "animation">
+		<div>
+			<svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M14.0525 3.25461L13.6751 2.3125H12.6602H3.94141H2.44141V3.8125V55V56.5H3.94141H10.6914H12.1914V55V35.0664V35.043L12.1907 35.0196L11.7841 21.9877L25.403 55.5638L25.7827 56.5H26.793H31.9609H32.9714L33.351 55.5636L47.021 21.8463L46.6335 35.0223L46.6328 35.0444V35.0664V55V56.5H48.1328H54.8828H56.3828V55V3.8125V2.3125H54.8828H46.1289H45.114L44.7365 3.25461L29.3945 41.5451L14.0525 3.25461Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "first" class="thePaths"/>
+			</svg>
+		
+			<svg width="15" height="58" viewBox="0 0 15 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.9883 56.5H12.4883V55V16.9609V15.4609H10.9883H4.48438H2.98438V16.9609V55V56.5H4.48438H10.9883ZM3.7931 3.19379L3.78402 3.20384L3.77513 3.21405C2.88127 4.24033 2.45703 5.49119 2.45703 6.87109C2.45703 8.25046 2.88153 9.5004 3.79131 10.5113L3.8004 10.5214L3.80967 10.5313C4.83165 11.6263 6.24549 12.0625 7.78906 12.0625C9.33263 12.0625 10.7465 11.6263 11.7685 10.5313C12.71 9.52253 13.1562 8.26579 13.1562 6.87109C13.1562 5.47615 12.7104 4.21836 11.785 3.19379C10.7666 2.06625 9.34715 1.60938 7.78906 1.60938C6.23098 1.60938 4.81152 2.06625 3.7931 3.19379Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "second" class="thePaths"/>
+			</svg>
+	
+			<svg width="37" height="45" viewBox="0 0 37 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.5728 3.89483L11.5095 2.46094H10.0742H3.92188H2.42188V3.96094V42V43.5H3.92188H10.4258H11.9258V42V15.2516C12.696 13.7812 13.7256 12.6021 15.0174 11.6903C16.3372 10.7586 17.8809 10.2773 19.707 10.2773C22.0826 10.2773 23.5115 10.8763 24.3383 11.7668L24.3432 11.772L24.3481 11.7772C25.2221 12.7007 25.8132 14.2843 25.8359 16.8346V42V43.5H27.3359H33.8398H35.3398V42V16.8633H35.3399L35.3398 16.8517C35.3032 12.1259 34.2302 8.30558 31.8643 5.65941C29.4684 2.97954 25.9774 1.75781 21.6758 1.75781C17.7879 1.75781 14.4218 2.92093 11.6314 5.22354L11.5728 3.89483Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "third" class="thePaths"/>
+			</svg>
+	
+			<svg width="37" height="60" viewBox="0 0 37 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M35.3398 31.8633H35.3399L35.3398 31.8517C35.3032 27.1259 34.2302 23.3056 31.8643 20.6594C29.4684 17.9795 25.9774 16.7578 21.6758 16.7578C17.9238 16.7578 14.6569 17.8388 11.9258 19.9836V3V1.5H10.4258H3.92188H2.42188V3V57V58.5H3.92188H10.4258H11.9258V57V30.2516C12.696 28.7812 13.7256 27.6021 15.0174 26.6903C16.3372 25.7586 17.8809 25.2773 19.707 25.2773C22.0826 25.2773 23.5115 25.8763 24.3383 26.7668L24.3432 26.772L24.3481 26.7772C25.2221 27.7007 25.8132 29.2843 25.8359 31.8346V57V58.5H27.3359H33.8398H35.3398V57V31.8633Z" 
+				stroke="#FFFBFB" stroke-width="3" id ="fourth" class="thePaths"/>
+			</svg>
+	
+			<svg width="37" height="46" viewBox="0 0 37 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M5.86058 40.1854L5.86579 40.1913L5.87106 40.1971C8.36292 42.9354 11.9103 44.2031 16.2617 44.2031C20.1168 44.2031 23.4074 43.3301 26.0273 41.5051L26.0479 42.056L26.1019 43.5H27.5469H33.7344H35.2344V42V3.96094V2.46094H33.7344H27.2305H25.7305V3.96094V31.2989C25.0371 32.732 24.057 33.7755 22.7883 34.4863C21.4191 35.2535 19.6216 35.6836 17.3164 35.6836C15.2954 35.6836 14.0215 35.0773 13.2069 34.0752C12.3439 33.0138 11.7852 31.2534 11.7852 28.5352V3.96094V2.46094H10.2852H3.78125H2.28125V3.96094L2.28123 28.7109L2.28127 28.7186C2.30573 33.5375 3.41773 37.444 5.86058 40.1854Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "fifth" class="thePaths"/>
+			</svg>
+	
+			<svg width="15" height="58" viewBox="0 0 15 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.9883 56.5H12.4883V55V16.9609V15.4609H10.9883H4.48438H2.98438V16.9609V55V56.5H4.48438H10.9883ZM3.7931 3.19379L3.78402 3.20384L3.77513 3.21405C2.88127 4.24033 2.45703 5.49119 2.45703 6.87109C2.45703 8.25046 2.88153 9.5004 3.79131 10.5113L3.8004 10.5214L3.80967 10.5313C4.83165 11.6263 6.24549 12.0625 7.78906 12.0625C9.33263 12.0625 10.7465 11.6263 11.7685 10.5313C12.71 9.52253 13.1562 8.26579 13.1562 6.87109C13.1562 5.47615 12.7104 4.21836 11.785 3.19379C10.7666 2.06625 9.34715 1.60938 7.78906 1.60938C6.23098 1.60938 4.81152 2.06625 3.7931 3.19379Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "sixth" class="thePaths"/>
+			</svg>
+	
+			<svg width="38" height="58" viewBox="0 0 38 58" fill="none" xmlns="http://www.w3.org/2000/svg " style = "margin-left: 3rem;">
+				<path d="M36.4844 49.4805V47.9805H34.9844H12.2266V3.8125V2.3125H10.7266H3.94141H2.44141V3.8125V55V56.5H3.94141H34.9844H36.4844V55V49.4805Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "seventh" class="thePaths"/>
+			</svg>
+	
+			<svg width="15" height="58" viewBox="0 0 15 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.9883 56.5H12.4883V55V16.9609V15.4609H10.9883H4.48438H2.98438V16.9609V55V56.5H4.48438H10.9883ZM3.7931 3.19379L3.78402 3.20384L3.77513 3.21405C2.88127 4.24033 2.45703 5.49119 2.45703 6.87109C2.45703 8.25046 2.88153 9.5004 3.79131 10.5113L3.8004 10.5214L3.80967 10.5313C4.83165 11.6263 6.24549 12.0625 7.78906 12.0625C9.33263 12.0625 10.7465 11.6263 11.7685 10.5313C12.71 9.52253 13.1562 8.26579 13.1562 6.87109C13.1562 5.47615 12.7104 4.21836 11.785 3.19379C10.7666 2.06625 9.34715 1.60938 7.78906 1.60938C6.23098 1.60938 4.81152 2.06625 3.7931 3.19379Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "eighth" class="thePaths"/>
+			</svg>
+			<svg width="39" height="46" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M27.0646 42.6708L27.4792 43.5H28.4062H35.2266H36.7266V42V41.4375V41.1275L36.6037 40.8428C35.8265 39.043 35.3906 36.4946 35.3906 33.1055V15.5977V15.5794L35.3902 15.5611C35.2881 11.3748 33.8654 7.93942 31.0159 5.43773C28.1795 2.92391 24.3512 1.75781 19.7227 1.75781C16.7661 1.75781 14.0132 2.31012 11.4845 3.43397L11.4845 3.43396L11.4794 3.43628C8.98326 4.55698 6.94579 6.11012 5.41695 8.11343L5.41513 8.11581C3.91446 10.0904 3.10547 12.23 3.10547 14.5078V16.0078H4.60547H11.1445H12.6445V14.5078C12.6445 13.4048 13.13 12.4017 14.3971 11.4561C15.663 10.5113 17.2775 9.99609 19.3359 9.99609C21.7399 9.99609 23.3014 10.6103 24.287 11.5958L24.287 11.5959L24.2963 11.605C25.3142 12.6054 25.8867 13.9947 25.8867 15.9492V17.4375H21.0586C15.4203 17.4375 10.8229 18.5714 7.44928 21.0294C4.03156 23.5131 2.33203 27.0508 2.33203 31.4531C2.33203 35.1302 3.70365 38.2355 6.41938 40.6584L6.42516 40.6635L6.43099 40.6686C9.16376 43.0565 12.6162 44.2031 16.6641 44.2031C20.3415 44.2031 23.6223 43.0952 26.4689 40.918C26.6349 41.6114 26.8305 42.2026 27.0646 42.6708ZM22.6645 34.1617C21.0559 35.0897 19.3797 35.543 17.6133 35.543C15.7614 35.543 14.3804 35.0509 13.343 34.1745C12.3723 33.3544 11.8359 32.2084 11.8359 30.5391C11.8359 28.733 12.5553 27.4801 14.0819 26.5866C15.7326 25.6204 18.4019 25.043 22.2891 25.043H25.8867V30.9855C25.2048 32.2416 24.152 33.3035 22.6645 34.1617Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "nineth" class="thePaths"/>
+			</svg>
+			<svg width="37" height="45" viewBox="0 0 37 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.5728 3.89483L11.5095 2.46094H10.0742H3.92188H2.42188V3.96094V42V43.5H3.92188H10.4258H11.9258V42V15.2516C12.696 13.7812 13.7256 12.6021 15.0174 11.6903C16.3372 10.7586 17.8809 10.2773 19.707 10.2773C22.0826 10.2773 23.5115 10.8763 24.3383 11.7668L24.3432 11.772L24.3481 11.7772C25.2221 12.7007 25.8132 14.2843 25.8359 16.8346V42V43.5H27.3359H33.8398H35.3398V42V16.8633H35.3399L35.3398 16.8517C35.3032 12.1259 34.2302 8.30558 31.8643 5.65941C29.4684 2.97954 25.9774 1.75781 21.6758 1.75781C17.7879 1.75781 14.4218 2.92093 11.6314 5.22354L11.5728 3.89483Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "tenth" class="thePaths"/>
+			</svg>
+			<svg width="39" height="60" viewBox="0 0 39 60" fill="none" xmlns="http://www.w3.org/2000/svg" style = "transform: translateY(1rem);">
+				<path d="M18.3164 44.2031C21.8557 44.2031 24.9296 43.3355 27.4685 41.5662C27.4516 44.4715 26.6472 46.5244 25.2362 47.9354L25.2362 47.9354L25.2292 47.9425C23.8232 49.3673 21.7887 50.168 18.9141 50.168C15.3844 50.168 12.386 48.6896 9.84946 45.5562L8.72162 44.163L7.54905 45.5188L4.17405 49.4211L3.42114 50.2917L4.06714 51.2442C5.63132 53.5507 7.87204 55.322 10.7088 56.5885C13.5168 57.842 16.408 58.4766 19.3711 58.4766C24.5951 58.4766 28.9152 56.9622 32.1588 53.7982C35.438 50.6227 37.0078 46.3225 37.0078 41.0859V3.96094V2.46094H35.5078H29.5664H28.1747L28.0706 3.84875L27.9979 4.81781C25.3874 2.76853 22.1568 1.75781 18.3867 1.75781C13.4098 1.75781 9.3381 3.72186 6.30703 7.60678C3.29823 11.4396 1.875 16.5119 1.875 22.6641C1.875 29.0606 3.29199 34.3061 6.29673 38.2354L6.3005 38.2403C9.34449 42.1871 13.3891 44.2031 18.3164 44.2031ZM13.7693 32.6525C12.2562 30.5325 11.4141 27.5031 11.4141 23.4023C11.4141 18.7179 12.2853 15.4423 13.801 13.3483C15.2867 11.2957 17.2974 10.2773 20.0039 10.2773C21.7604 10.2773 23.2263 10.675 24.4543 11.4214C25.6016 12.1188 26.6134 13.1647 27.4688 14.6221V31.219C26.6401 32.7206 25.6357 33.7951 24.4794 34.5105C23.2461 35.2735 21.7505 35.6836 19.9336 35.6836C17.2227 35.6836 15.2279 34.6737 13.7693 32.6525Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e1th" class="thePaths"/>
+				</svg>
 				
-				
-			}
-
-			.timeline-small-body li div {
-				display: inline-block;
-				margin: 1em 0;
-				vertical-align: top;
-			}
-			.timeline-small-body .bullet {
-				width: 1rem;
-				height: 1rem;
-				box-sizing: border-box;
-				border-radius: 50%;
-				background: #fff;
-				transform: perspective(200px) translateZ(100px);
-				z-index: 1;
-				margin-right: 1rem;
-				margin-top: 7%;
-			}
-			.timeline-small-body .bullet.pink {
-				background-color: hotpink;
-				border: 3px solid #F93B69;
-			}
-			.timeline-small-body .bullet.green {
-				background-color: lightseagreen;
-				border: 3px solid #B0E8E2;
-			}
-			.timeline-small-body .bullet.blue {
-				background-color: aquamarine;
-				border: 3px solid cadetblue;
-			}
-			.timeline-small-body .bullet.orange {
-				background-color: salmon;
-				border: 3px solid #EB8B6E;
-			}
-			.timeline-small-body .date {
-				width: 23%;
-				font-size: 0.75em;
-				padding-top: 0.40rem;
-				padding-right: 2rem;
-			}
-			.timeline-small-body .desc {
-				width: 50%;
-			}
-			.timeline-small-body h3 {
-				font-size: 0.9em;
-				font-weight: 400;
-				margin: 0;
-			}
-			.timeline-small-body h4 {
-				margin: 0;
-				font-size: 0.7em;
-				font-weight: 400;
-				color: #808080;
-			}
-
-			.addbg{
-				background: url("images/banner.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-			}
-			
-		</style>
-
-
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
-
-			<!-- Header -->
-				<div id="header">
-
-					<!-- Logo -->
-						<h1><a href="#" id="logo">Minhui's<em> personal website</em></a></h1>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li class="current"><a href=" ">Home</a></li>
-								<li>
-									<a href="left-sidebar.html">Lower Div Project</a>
-									<ul>
-										<li><a href="#">61A project</a></li>
-										<li><a href="#">61B project</a></li>
-										<li><a href="#">61C project</a>
-											<!-- <ul>
-												<li><a href="#">Project 1</a></li>
-												<li><a href="#">Project 2</a></li>
-												<li><a href="#">Project 3</a></li>
-												<li><a href="#">Project 4</a></li>
-											</ul> -->
-										</li>
-									</ul>
-								</li>
-								<li><a href="no-sidebar.html">Fontend Project</a></li>
-								<li>
-									<a href="right-sidebar.html">Upper Div Project</a>
-									<ul>
-										<li><a href="right-sidebar.html">cs161 project</a></li>
-										<li><a href="right-sidebar.html">cs188 project</a></li>
-										<li><a href="right-sidebar.html">cs186 project</a>
-											<!-- <ul>
-												<li><a href="#">Project 1</a></li>
-												<li><a href="#">Project 2</a></li>
-												<li><a href="#">Project 3</a></li>
-												<li><a href="#">Project 4</a></li>
-											</ul> -->
-										</li>
-									</ul>
-								
-								</li>
-								<!-- <li><a href="two-sidebar.html">Two Sidebar</a></li> -->
-							</ul>
-						</nav>
-
-				</div>
-
-
-			<!-- Banner -->
-				<!-- <section id="banner">
-	
-				</section> -->
-
-			<!-- Gigantic Heading -->
-			<section class="wrapper style2">
-				<div class="container ">
-					
-					<header class="major">
-						<div class="row">
-							<section class="col-12 col-12-narrower">
-								<div class="box post"  style = "margin-left: 5%;">
-									<a href="#" class="image left sbox"><img src="images/selfy.jpg" alt="" /></a>
-									<div class="inner">
-										<div>
-											<h2><b>Basic Information</b></h2>
-											<p><b>Minhui Liang (Vivian Leung)</b></p>
-										</div>
-
-										<div>
-											<table>
-												<tr>
-													<th>
-														<i class="fa fa-female" aria-hidden="true"></i><b> About me:</b>
-													</th>
-												</tr>
-												<tr>
-													<th>
-														I was bron in mainland China and lived in Califorlia for almost five years. I got my 
-														first undergraduate degree at the University of California, Berkeley. I am a 
-														diligent and patient person, hoping to become an excellent programmer with my own efforts.
-													</th>
-												</tr>
-											</table>
-
-										</div>
-										
-										<table>
-											<tr>
-												<th>
-													<i class="fa fa-book" aria-hidden="true"></i><b> Major:</b>
-												</th>
-												<th>
-													Electrical Engineering and Computer Sciences B.S.
-												</th>
-											</tr>
-											<tr>
-												<th>
-													<i class="fa fa-language"></i><b> Language:</b>
-												</th>
-											</tr>
-											<tr> 
-												<td>
-													<span>English:</span>
-												</td>
-												<td><span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star checked"></span>
-	
-												</td>
-												
-											</tr>
-											<tr> 
-												<td>
-													<span>Cantonese:</span>
-												</td>
-												<td><span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-	
-												</td>
-												
-											</tr>
-											<tr> 
-												<td>
-													<span>Mandarin:</span>
-												</td>
-												<td><span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-													<span class="fa fa-star starcolor"></span>
-	
-												</td>
-												
-											</tr>
-											
-										</table>
-
-									</div>
-								</div>
-							</section>
-							
-						</div>
-						
-					</header>
-				</div>
-			</section>
-
-			<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row gtr-200">
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-mobile"></i>
-									<h3>Mobile Number</h3>	
-									<p>+1 510 626 7794</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-envelope"></i>
-									<h3>Email Address</h3>
-									<p>minhui_leung@berkeley.edu</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major brands fa-linkedin-in" aria-hidden="true"></i>
-									<h3>LinkedIn</h3>
-									<p>https://www.linkedin.com/in/minhui-l-93397b1b1/</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			
-
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<!-- <a href="#" class="image left"><img src="images/bg.jpeg" alt="" /></a> -->
-									<!-- <div class="inner"> -->
-									<div>
-										<!-- <h3>Education</h3> -->
-										<div class="timeline-small">
-											<div class="myheader">
-												<div class="color-overlay">
-													<div class="myheader-name">Education</div>
-													<!-- <div class="myheader-sub">Timeline</div> -->
-												</div>
-											</div>
-											<div class="timeline-small-body">
-												<ul>
-													<li>
-														<div class="bullet blue"></div>
-														<div class="date">2017.1 to 2019.5</div>
-														<div class="desc">
-															<h3>Chabot College</h3>
-															<h4>Computer Science Major</h4>
-															<h4>Mathematic B.A.</h4>
-
-														</div>
-													</li>
-													<li>
-														<div class="bullet green"></div>
-														<div class="date">2019.9 to 2021.8</div>
-														<div class="desc">
-															<h3>U.C. Berkeley</h3>
-															<h4>EECS Major</h4>
-															<h4>EECS B.S.</h4>
-														</div>
-													</li>
-													<!-- <li>
-														<div class="bullet pink"></div>
-														<div class="date"></div>
-														<div class="desc">
-															<h3></h3>
-															<h4></h4>
-														</div>
-													</li>
-													<li>
-														<div class="bullet orange"></div>
-														<div class="date"></div>
-														<div class="desc">
-															<h3></h3>
-															<h4></h4>
-														</div>
-													</li> -->
-												</ul>
-											</div>
-										</div>
-										
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<!-- <a href="#" class="image left"><img src="images/bg.jpeg" alt="" /></a>
-									<div class="inner">
-										<h3>Software</h3> -->
-									<div class="timeline-small">
-											<div class="myheader">
-												<div class="color-overlay">
-													<div class="myheader-name">Software</div>
-													<!-- <div class="myheader-sub">Timeline</div> -->
-												</div>
-											</div>
-										<div style = "margin: 10%;">
-											<table>
-											
-												<tr> 
-													<td>
-														<span>Python:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-		
-													</td>
-													
-												</tr>
-												<tr> 
-													<td>
-														<span>Java:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-		
-													</td>
-													
-												</tr>
-												<tr> 
-													<td>
-														<span>C:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-														
-		
-													</td>
-													
-												</tr>
-												<tr> 
-													<td>
-														<span>Photoshop:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-		
-													</td>
-													
-												</tr>
-												<tr> 
-													<td>
-														<span>Html:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-													
-		
-													</td>
-													
-												</tr>
-												<tr> 
-													<td>
-														<span>Javascript:</span>
-													</td>
-													<td><span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star starcolor"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-														<span class="fa fa-star checked"></span>
-		
-													</td>
-													
-												</tr>
-												
-											</table>
-
-
-										</div>
-										
-									
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									
-									<div class="timeline-small">
-										<div class="myheader">
-											<div class="color-overlay">
-												<div class="myheader-name">Hobbies</div>
-												<!-- <div class="myheader-sub">Timeline</div> -->
-												
-											</div>
-										</div>
-										<!-- <a href="#" class="image left"><img src="images/bluebg.jpeg" alt="" /></a>
-										<div class="inner"> -->
-										<div style="margin: 10%;">
-											<table>
-												<tr><td>Baking</td></tr>
-												<tr><td>Gaming with friends</td></tr>
-												<tr><td>Watch Movies</td></tr>
-												<tr><td>Shopping</td></tr>
-											</table>
-											
-										</div>
-
-									</div>
-									
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<div class="timeline-small">
-										<div class="myheader">
-											<div class="color-overlay">
-												<div class="myheader-name">Work Experience</div>
-												<!-- <div class="myheader-sub">Timeline</div> -->
-												
-											</div>
-										</div>
-									
-										<!-- <a href="#" class="image left"><img src="images/bluebg.jpeg" alt="" /></a>
-										<div class="inner"> -->
-	
-											<div style = "margin: 5%;">
-												<table>
-													<tr>
-														<b>
-															<th>Time</th>
-															<th>Company</th>
-															<th>Position</th>
-														</b>
-														
-													</tr>
-													<tr> 
-														<td>
-															2018.1 to 2019.5
-														</td>
-														<td>Chabot College
-			
-														</td>
-														<td>
-															Mathematic and Computer Science Tutor
-														</td>
-														
-													</tr>
-												</table>
-											
-										</div>
-									</div>
-									
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>On the following page, you would find some fun facts about me and my projects. Are you ready to continue your quest?</h2>
-							<a href="left-sidebar.html" class="button">OK</a>
-						</header>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<div id="footer">
-					<!-- <div class="container">
-						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									
-								</ul>
-							</section>
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									
-								</ul>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div> -->
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
+			<svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg" style = "transform: translateY(-1.5rem);">
+				<path d="M7.53061 21.4637L8.4492 22.0935L9.31782 21.3964C11.2929 19.8111 12.8773 17.7521 14.0866 15.2589C15.3213 12.7381 15.9701 10.1761 15.996 7.58531L15.9961 7.57781V7.57031V3V1.5H14.4961H8.0625H6.5625V3V8.0465C6.49612 11.0809 5.48804 13.9982 3.46753 16.8226L2.57724 18.0671L3.83921 18.9324L7.53061 21.4637Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e2th" class="thePaths"/>
+			</svg>
+			<svg width="37" height="46" viewBox="0 0 37 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M24.1664 29.032L24.1784 29.041L24.1905 29.0497C25.1043 29.707 25.5703 30.5964 25.5703 31.9102C25.5703 33.0252 25.1118 33.9143 23.9859 34.6715C22.8341 35.4384 21.188 35.8945 18.9141 35.8945C16.4828 35.8945 14.6808 35.3222 13.371 34.3157C12.1153 33.3109 11.437 31.9868 11.3416 30.2124L11.2653 28.793H9.84375H3.33984H1.83984V30.293C1.83984 32.8552 2.59304 35.243 4.06515 37.4249L4.07098 37.4335L4.07693 37.4421C5.58095 39.6058 7.63989 41.2704 10.2013 42.4487C12.774 43.6321 15.6895 44.2031 18.9141 44.2031C23.4843 44.2031 27.3537 43.1263 30.3961 40.8446L30.4027 40.8396C33.4934 38.4949 35.0742 35.3231 35.0742 31.4531C35.0742 29.1707 34.521 27.1371 33.3347 25.4366C32.1913 23.741 30.4766 22.3738 28.3036 21.2873C26.1401 20.2055 23.3755 19.3052 20.0501 18.5635C16.8278 17.8396 14.819 17.1219 13.8177 16.4796C13.0376 15.9792 12.6445 15.2901 12.6445 14.1914C12.6445 12.9998 13.0909 12.0878 14.065 11.3358C15.0509 10.5748 16.5369 10.1016 18.7031 10.1016C20.7025 10.1016 22.2359 10.6545 23.4208 11.6728L23.4208 11.6728L23.4295 11.6802C24.6617 12.7228 25.1836 13.857 25.1836 15.1406V16.6406H26.6836H33.2227H34.7227V15.1406C34.7227 11.2214 33.1729 7.9518 30.1373 5.44314C27.1363 2.94348 23.2784 1.75781 18.7031 1.75781C14.3286 1.75781 10.5981 2.91337 7.63107 5.32896L7.63106 5.32895L7.62602 5.3331C4.68961 7.74515 3.14062 10.7923 3.14062 14.4023C3.14062 16.5311 3.66334 18.4496 4.76695 20.0909L4.77188 20.0982L4.7769 20.1055C5.89195 21.7223 7.54001 23.0408 9.61697 24.1046L9.61696 24.1046L9.62352 24.1079C11.728 25.1728 14.479 26.0502 17.8263 26.7675L17.8285 26.7679C21.0989 27.4638 23.1313 28.2557 24.1664 29.032Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e3th" class="thePaths"/>
+			</svg><br/>
 
 		</div>
+		<div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<svg width="44" height="58" viewBox="0 0 44 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.6914 56.5H12.1914V55V36.4609H22.75C28.7508 36.4609 33.594 35.0771 37.0546 32.0884L37.0553 32.0878C40.5696 29.0491 42.25 24.7633 42.25 19.457C42.25 14.3687 40.5096 10.1609 36.9724 6.98683C33.4556 3.80978 28.6732 2.3125 22.8203 2.3125H3.94141H2.44141V3.8125V55V56.5H3.94141H10.6914ZM22.8203 27.9414H12.1914V10.8672H23.191C26.2631 10.9344 28.5011 11.7966 30.0834 13.3017C31.6624 14.8037 32.5 16.8245 32.5 19.5273C32.5 22.422 31.647 24.428 30.1238 25.7862C28.5698 27.1487 26.2115 27.9414 22.8203 27.9414Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e4th" class="thePaths"/>
+			</svg>
+			<svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.03452 38.6747L7.03811 38.6785C10.5861 42.3807 15.1885 44.2031 20.707 44.2031C27.5347 44.2031 32.8152 41.5413 36.308 36.1736L37.0596 35.0186L35.9724 34.172L31.9998 31.0783L30.8118 30.1531L29.8912 31.3445C28.806 32.7489 27.5537 33.8603 26.134 34.6954C24.8205 35.4681 23.1523 35.8945 21.0586 35.8945C18.2293 35.8945 15.9658 34.9113 14.1532 32.9405C12.6311 31.2448 11.6837 29.073 11.3765 26.3438H35.543H37.043V24.8438V22.1367C37.043 15.8609 35.627 10.8017 32.5773 7.17858C29.5026 3.52576 25.2069 1.75781 19.8984 1.75781C16.5781 1.75781 13.4837 2.68942 10.6461 4.52969C7.8207 6.35372 5.62905 8.89045 4.06611 12.0919L4.06611 12.0919L4.06396 12.0964C2.52181 15.2818 1.76953 18.874 1.76953 22.8398V24.0352C1.76953 30.0068 3.48128 34.9412 7.03452 38.6747ZM14.3829 12.5107L14.383 12.5108L14.3892 12.504C15.886 10.889 17.6902 10.1016 19.8984 10.1016C22.2423 10.1016 23.964 10.8698 25.2365 12.3295L25.2365 12.3295L25.2429 12.3367C26.3847 13.6296 27.158 15.4756 27.4486 18H11.751C12.2552 15.6197 13.156 13.8184 14.3829 12.5107Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e5th" class="thePaths"/>
+			</svg>
+			<svg width="26" height="45" viewBox="0 0 26 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M22.062 11.2765L23.8086 11.5676V9.79688V3.75V2.82295L22.9794 2.40836C22.015 1.92614 20.7783 1.75781 19.4258 1.75781C16.4225 1.75781 13.8526 2.66044 11.7616 4.4245L11.7496 3.92495L11.7144 2.46094H10.25H3.92188H2.42188V3.96094V42V43.5H3.92188H10.4258H11.9258V42V15.3126C12.5767 13.8783 13.4556 12.862 14.5366 12.1836C15.692 11.4586 17.1889 11.0508 19.1094 11.0508C20.1872 11.0508 21.1702 11.1278 22.062 11.2765Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e6th" class="thePaths"/>
+			</svg>
+			<svg width="37" height="46" viewBox="0 0 37 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M24.1664 29.032L24.1784 29.041L24.1905 29.0497C25.1043 29.707 25.5703 30.5964 25.5703 31.9102C25.5703 33.0252 25.1118 33.9143 23.9859 34.6715C22.8341 35.4384 21.188 35.8945 18.9141 35.8945C16.4828 35.8945 14.6808 35.3222 13.371 34.3157C12.1153 33.3109 11.437 31.9868 11.3416 30.2124L11.2653 28.793H9.84375H3.33984H1.83984V30.293C1.83984 32.8552 2.59304 35.243 4.06515 37.4249L4.07098 37.4335L4.07693 37.4421C5.58095 39.6058 7.63989 41.2704 10.2013 42.4487C12.774 43.6321 15.6895 44.2031 18.9141 44.2031C23.4843 44.2031 27.3537 43.1263 30.3961 40.8446L30.4027 40.8396C33.4934 38.4949 35.0742 35.3231 35.0742 31.4531C35.0742 29.1707 34.521 27.1371 33.3347 25.4366C32.1913 23.741 30.4766 22.3738 28.3036 21.2873C26.1401 20.2055 23.3755 19.3052 20.0501 18.5635C16.8278 17.8396 14.819 17.1219 13.8177 16.4796C13.0376 15.9792 12.6445 15.2901 12.6445 14.1914C12.6445 12.9998 13.0909 12.0878 14.065 11.3358C15.0509 10.5748 16.5369 10.1016 18.7031 10.1016C20.7025 10.1016 22.2359 10.6545 23.4208 11.6728L23.4208 11.6728L23.4295 11.6802C24.6617 12.7228 25.1836 13.857 25.1836 15.1406V16.6406H26.6836H33.2227H34.7227V15.1406C34.7227 11.2214 33.1729 7.9518 30.1373 5.44314C27.1363 2.94348 23.2784 1.75781 18.7031 1.75781C14.3286 1.75781 10.5981 2.91337 7.63107 5.32896L7.63106 5.32895L7.62602 5.3331C4.68961 7.74515 3.14062 10.7923 3.14062 14.4023C3.14062 16.5311 3.66334 18.4496 4.76695 20.0909L4.77188 20.0982L4.7769 20.1055C5.89195 21.7223 7.54001 23.0408 9.61697 24.1046L9.61696 24.1046L9.62352 24.1079C11.728 25.1728 14.479 26.0502 17.8263 26.7675L17.8285 26.7679C21.0989 27.4638 23.1313 28.2557 24.1664 29.032Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e7th" class="thePaths"/>
+			</svg>
+			<svg width="41" height="46" viewBox="0 0 41 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M4.03516 11.9076L4.03513 11.9076L4.03096 11.9162C2.4659 15.122 1.69922 18.703 1.69922 22.6289V23.0859C1.69922 29.271 3.37476 34.4006 6.85935 38.3208L6.86299 38.3248C10.3805 42.2532 14.9827 44.2031 20.5312 44.2031C24.2026 44.2031 27.5066 43.3197 30.3942 41.5157C33.2948 39.7181 35.5109 37.2119 37.0349 34.0378C38.5745 30.8567 39.3281 27.3015 39.3281 23.4023V22.9453C39.3281 16.7153 37.6418 11.5602 34.1312 7.63832C30.6347 3.70577 26.0298 1.75781 20.4609 1.75781C16.8566 1.75781 13.5913 2.63096 10.7093 4.4065L10.7093 4.40649L10.7042 4.40967C7.84582 6.18649 5.62475 8.70322 4.03516 11.9076ZM27.1398 13.4091L27.1444 13.4151L27.149 13.4211C28.8874 15.6707 29.8242 18.6949 29.8242 22.6289C29.8242 27.1039 28.8888 30.3758 27.2067 32.6267C25.5528 34.8171 23.377 35.8945 20.5312 35.8945C17.7073 35.8945 15.5257 34.8268 13.8471 32.6504C12.1568 30.4288 11.2383 27.3938 11.2383 23.4023C11.2383 18.8247 12.1891 15.5428 13.8795 13.3492C15.5658 11.1611 17.7177 10.1016 20.4609 10.1016C23.2755 10.1016 25.4565 11.1847 27.1398 13.4091Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e8th" class="thePaths"/>
+			</svg>
+			<svg width="37" height="45" viewBox="0 0 37 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.5728 3.89483L11.5095 2.46094H10.0742H3.92188H2.42188V3.96094V42V43.5H3.92188H10.4258H11.9258V42V15.2516C12.696 13.7812 13.7256 12.6021 15.0174 11.6903C16.3372 10.7586 17.8809 10.2773 19.707 10.2773C22.0826 10.2773 23.5115 10.8763 24.3383 11.7668L24.3432 11.772L24.3481 11.7772C25.2221 12.7007 25.8132 14.2843 25.8359 16.8346V42V43.5H27.3359H33.8398H35.3398V42V16.8633H35.3399L35.3398 16.8517C35.3032 12.1259 34.2302 8.30558 31.8643 5.65941C29.4684 2.97954 25.9774 1.75781 21.6758 1.75781C17.7879 1.75781 14.4218 2.92093 11.6314 5.22354L11.5728 3.89483Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "e9th" class="thePaths"/>
+			</svg>
+			<svg width="39" height="46" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M27.0646 42.6708L27.4792 43.5H28.4062H35.2266H36.7266V42V41.4375V41.1275L36.6037 40.8428C35.8265 39.043 35.3906 36.4946 35.3906 33.1055V15.5977V15.5794L35.3902 15.5611C35.2881 11.3748 33.8654 7.93942 31.0159 5.43773C28.1795 2.92391 24.3512 1.75781 19.7227 1.75781C16.7661 1.75781 14.0132 2.31012 11.4845 3.43397L11.4845 3.43396L11.4794 3.43628C8.98326 4.55698 6.94579 6.11012 5.41695 8.11343L5.41513 8.11581C3.91446 10.0904 3.10547 12.23 3.10547 14.5078V16.0078H4.60547H11.1445H12.6445V14.5078C12.6445 13.4048 13.13 12.4017 14.3971 11.4561C15.663 10.5113 17.2775 9.99609 19.3359 9.99609C21.7399 9.99609 23.3014 10.6103 24.287 11.5958L24.287 11.5959L24.2963 11.605C25.3142 12.6054 25.8867 13.9947 25.8867 15.9492V17.4375H21.0586C15.4203 17.4375 10.8229 18.5714 7.44928 21.0294C4.03156 23.5131 2.33203 27.0508 2.33203 31.4531C2.33203 35.1302 3.70365 38.2355 6.41938 40.6584L6.42516 40.6635L6.43099 40.6686C9.16376 43.0565 12.6162 44.2031 16.6641 44.2031C20.3415 44.2031 23.6223 43.0952 26.4689 40.918C26.6349 41.6114 26.8305 42.2026 27.0646 42.6708ZM22.6645 34.1617C21.0559 35.0897 19.3797 35.543 17.6133 35.543C15.7614 35.543 14.3804 35.0509 13.343 34.1745C12.3723 33.3544 11.8359 32.2084 11.8359 30.5391C11.8359 28.733 12.5553 27.4801 14.0819 26.5866C15.7326 25.6204 18.4019 25.043 22.2891 25.043H25.8867V30.9855C25.2048 32.2416 24.152 33.3035 22.6645 34.1617Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t0th" class="thePaths"/>
+			</svg>
+			<svg width="13" height="60" viewBox="0 0 13 60" fill="none" xmlns="http://www.w3.org/2000/svg" style = "margin-right: 3rem;">
+				<path d="M9.98828 58.5H11.4883V57V3V1.5H9.98828H3.48438H1.98438V3V57V58.5H3.48438H9.98828Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t1th" class="thePaths"/>
+			</svg>
+	
+			<svg width="69" height="58" viewBox="0 0 69 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M24.1113 55.4219L34.4027 20.3122L44.3261 55.4081L44.6348 56.5H45.7695H51.9219H53.1017L53.3796 55.3534L65.7898 4.16593L66.2392 2.3125H64.332H57.5469H56.3491L56.0841 3.48058L48.2455 38.0259L38.6723 3.41265L38.368 2.3125H37.2266H31.5312H30.3973L30.0881 3.40342L20.303 37.9232L12.3561 3.47532L12.0879 2.3125H10.8945H4.14453H2.23868L2.68653 4.16498L15.0615 55.3525L15.339 56.5H16.5195H22.6719H23.7953L24.1113 55.4219Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t2th" class="thePaths"/>
+			</svg>
+			<svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.03452 38.6747L7.03811 38.6785C10.5861 42.3807 15.1885 44.2031 20.707 44.2031C27.5347 44.2031 32.8152 41.5413 36.308 36.1736L37.0596 35.0186L35.9724 34.172L31.9998 31.0783L30.8118 30.1531L29.8912 31.3445C28.806 32.7489 27.5537 33.8603 26.134 34.6954C24.8205 35.4681 23.1523 35.8945 21.0586 35.8945C18.2293 35.8945 15.9658 34.9113 14.1532 32.9405C12.6311 31.2448 11.6837 29.073 11.3765 26.3438H35.543H37.043V24.8438V22.1367C37.043 15.8609 35.627 10.8017 32.5773 7.17858C29.5026 3.52576 25.2069 1.75781 19.8984 1.75781C16.5781 1.75781 13.4837 2.68942 10.6461 4.52969C7.8207 6.35372 5.62905 8.89045 4.06611 12.0919L4.06611 12.0919L4.06396 12.0964C2.52181 15.2818 1.76953 18.874 1.76953 22.8398V24.0352C1.76953 30.0068 3.48128 34.9412 7.03452 38.6747ZM14.3829 12.5107L14.383 12.5108L14.3892 12.504C15.886 10.889 17.6902 10.1016 19.8984 10.1016C22.2423 10.1016 23.964 10.8698 25.2365 12.3295L25.2365 12.3295L25.2429 12.3367C26.3847 13.6296 27.158 15.4756 27.4486 18H11.751C12.2552 15.6197 13.156 13.8184 14.3829 12.5107Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t3th" class="thePaths"/>
+			</svg>
+			<svg width="40" height="61" viewBox="0 0 40 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M33.3114 53.3373L33.3143 53.3335C36.2361 49.4634 37.625 44.4397 37.625 38.4023V37.8398C37.625 31.5673 36.2579 26.4288 33.3495 22.5923C30.423 18.7005 26.3455 16.7578 21.2891 16.7578C17.6459 16.7578 14.5013 17.704 11.9258 19.6198V3V1.5H10.4258H3.92188H2.42188V3V57V58.5H3.92188H9.89844H11.2943L11.3946 57.1077L11.4725 56.0248C14.1336 58.1547 17.4584 59.2031 21.3594 59.2031C26.3176 59.2031 30.3496 57.2345 33.3114 53.3373ZM25.8309 28.2658C27.293 30.3288 28.1211 33.3991 28.1211 37.6641C28.1211 42.383 27.2693 45.6441 25.8013 47.6873C24.3645 49.6871 22.4041 50.6836 19.7422 50.6836C17.8777 50.6836 16.3367 50.2466 15.059 49.4269C13.8507 48.6518 12.7967 47.4822 11.9258 45.8434V30.0987C12.745 28.4645 13.7659 27.3017 14.9578 26.5312C16.2176 25.7169 17.7665 25.2773 19.6719 25.2773C22.4449 25.2773 24.4281 26.2865 25.8309 28.2658Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t4th" class="thePaths"/>
+			</svg>
+			<svg width="37" height="46" viewBox="0 0 37 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M24.1664 29.032L24.1784 29.041L24.1905 29.0497C25.1043 29.707 25.5703 30.5964 25.5703 31.9102C25.5703 33.0252 25.1118 33.9143 23.9859 34.6715C22.8341 35.4384 21.188 35.8945 18.9141 35.8945C16.4828 35.8945 14.6808 35.3222 13.371 34.3157C12.1153 33.3109 11.437 31.9868 11.3416 30.2124L11.2653 28.793H9.84375H3.33984H1.83984V30.293C1.83984 32.8552 2.59304 35.243 4.06515 37.4249L4.07098 37.4335L4.07693 37.4421C5.58095 39.6058 7.63989 41.2704 10.2013 42.4487C12.774 43.6321 15.6895 44.2031 18.9141 44.2031C23.4843 44.2031 27.3537 43.1263 30.3961 40.8446L30.4027 40.8396C33.4934 38.4949 35.0742 35.3231 35.0742 31.4531C35.0742 29.1707 34.521 27.1371 33.3347 25.4366C32.1913 23.741 30.4766 22.3738 28.3036 21.2873C26.1401 20.2055 23.3755 19.3052 20.0501 18.5635C16.8278 17.8396 14.819 17.1219 13.8177 16.4796C13.0376 15.9792 12.6445 15.2901 12.6445 14.1914C12.6445 12.9998 13.0909 12.0878 14.065 11.3358C15.0509 10.5748 16.5369 10.1016 18.7031 10.1016C20.7025 10.1016 22.2359 10.6545 23.4208 11.6728L23.4208 11.6728L23.4295 11.6802C24.6617 12.7228 25.1836 13.857 25.1836 15.1406V16.6406H26.6836H33.2227H34.7227V15.1406C34.7227 11.2214 33.1729 7.9518 30.1373 5.44314C27.1363 2.94348 23.2784 1.75781 18.7031 1.75781C14.3286 1.75781 10.5981 2.91337 7.63107 5.32896L7.63106 5.32895L7.62602 5.3331C4.68961 7.74515 3.14062 10.7923 3.14062 14.4023C3.14062 16.5311 3.66334 18.4496 4.76695 20.0909L4.77188 20.0982L4.7769 20.1055C5.89195 21.7223 7.54001 23.0408 9.61697 24.1046L9.61696 24.1046L9.62352 24.1079C11.728 25.1728 14.479 26.0502 17.8263 26.7675L17.8285 26.7679C21.0989 27.4638 23.1313 28.2557 24.1664 29.032Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t5th" class="thePaths"/>
+			</svg>
+			<svg width="15" height="58" viewBox="0 0 15 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.9883 56.5H12.4883V55V16.9609V15.4609H10.9883H4.48438H2.98438V16.9609V55V56.5H4.48438H10.9883ZM3.7931 3.19379L3.78402 3.20384L3.77513 3.21405C2.88127 4.24033 2.45703 5.49119 2.45703 6.87109C2.45703 8.25046 2.88153 9.5004 3.79131 10.5113L3.8004 10.5214L3.80967 10.5313C4.83165 11.6263 6.24549 12.0625 7.78906 12.0625C9.33263 12.0625 10.7465 11.6263 11.7685 10.5313C12.71 9.52253 13.1562 8.26579 13.1562 6.87109C13.1562 5.47615 12.7104 4.21836 11.785 3.19379C10.7666 2.06625 9.34715 1.60938 7.78906 1.60938C6.23098 1.60938 4.81152 2.06625 3.7931 3.19379Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t6th" class="thePaths"/>
+			</svg>
+			<svg width="28" height="55" viewBox="0 0 28 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M18.2461 3.75V2.25H16.7461H10.2422H8.74219V3.75V11.4609H3.31641H1.81641V12.9609V17.9883V19.4883H3.31641H8.74219V41.5781C8.74219 45.0229 9.52758 47.9111 11.3085 50.0312C13.143 52.2152 15.8095 53.2031 19.0312 53.2031C20.7946 53.2031 22.5921 52.9474 24.4198 52.4467L25.5234 52.1443V51V45.7266V43.8711L23.7091 44.2599C22.4327 44.5334 21.5223 44.6484 20.9297 44.6484C19.617 44.6484 19.0735 44.3245 18.8485 44.064C18.5273 43.6651 18.2461 42.9179 18.2461 41.5781V19.4883H23.8477H25.3477V17.9883V12.9609V11.4609H23.8477H18.2461V3.75Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t7th" class="thePaths"/>
+			</svg>
+			<svg width="40" height="46" viewBox="0 0 40 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M7.03452 38.6747L7.03811 38.6785C10.5861 42.3807 15.1885 44.2031 20.707 44.2031C27.5347 44.2031 32.8152 41.5413 36.308 36.1736L37.0596 35.0186L35.9724 34.172L31.9998 31.0783L30.8118 30.1531L29.8912 31.3445C28.806 32.7489 27.5537 33.8603 26.134 34.6954C24.8205 35.4681 23.1523 35.8945 21.0586 35.8945C18.2293 35.8945 15.9658 34.9113 14.1532 32.9405C12.6311 31.2448 11.6837 29.073 11.3765 26.3438H35.543H37.043V24.8438V22.1367C37.043 15.8609 35.627 10.8017 32.5773 7.17858C29.5026 3.52576 25.2069 1.75781 19.8984 1.75781C16.5781 1.75781 13.4837 2.68942 10.6461 4.52969C7.8207 6.35372 5.62905 8.89045 4.06611 12.0919L4.06611 12.0919L4.06396 12.0964C2.52181 15.2818 1.76953 18.874 1.76953 22.8398V24.0352C1.76953 30.0068 3.48128 34.9412 7.03452 38.6747ZM14.3829 12.5107L14.383 12.5108L14.3892 12.504C15.886 10.889 17.6902 10.1016 19.8984 10.1016C22.2423 10.1016 23.964 10.8698 25.2365 12.3295L25.2365 12.3295L25.2429 12.3367C26.3847 13.6296 27.158 15.4756 27.4486 18H11.751C12.2552 15.6197 13.156 13.8184 14.3829 12.5107Z" 
+				stroke="#FFFBFB" stroke-width="3" id = "t8th" class="thePaths"/>
+			</svg>
+		</div>
 
-	</body>
+	</div>
+	<!--header and nav bar-->
+	<header>
+		<h1>
+			Minhui's Profile
+		</h1>
+		<nav>
+			<ul>
+				<li><a href = "#" class="active">Index</a></li>
+				<li><a href ="Project.html" >Courses and Projects</a></li>
+				<li><a href = "worksPreview.html">Frontend Projects Preview</a> </li>
+				<li><a href = "ContactInfo.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- resume-->
+	<main>
+		<section class="left">
+			<h1>
+				Introduction
+			</h1>
+			<p> Hi, I am Minhui Liang.I graduated from the University of California, Berkeley with an Electrical Engineer and Computer Science major. 
+				I am a sociable person. In my spare time, I would like to go out hiking, barbecue, and play games with my friends. 
+				Details and patience are also my strengths, which are very helpful for my programming and debugging. 
+				I hope that while gaining work experience at work, I can create value for the company, and make myself become an excellent programmer.</p><br/>
+			<h1>
+				Education
+			</h1>
+			<p>University of California, Berkeley<br/>
+				09/2019 - 08/2021<br/>                                                                               
+				Major: Bachelor of Science, EECS<br/>
+				GPA: 3.42</p><br/>
+			<p>Chabot College<br/>
+				01/2017 - 05/2019<br/>
+				Major: Associate Degree in Mathematics<br/>
+				GPA: 3.82</p><br/>
+		
+			<h1>Experience</h1>
+			<p>Chabot College<br/>
+				Mathematics and Computer Science Tutor<br/>
+				11/2018 - 05/2019<br/>
+				Assisted the MESA and EOPS students with their projects, homework, test preparation, and other academic problems in daily tutoring sections.
+			</p><br/>
+
+			<h1>LinkedIn Profile</h1>
+			<a href="https://www.linkedin.com/in/minhui-l-93397b1b1/">
+				<p>https://www.linkedin.com/in/minhui-l-93397b1b1/</p>
+			</a><br/>
+
+			<h1>Language</h1>
+			<p>English Cantonese Mandarin</p><br/>
+
+			<h1>Skills</h1>
+			<p>Programming: Python, Java, C, C++, SQL, Nosql, MongoDB, Html, JavaScript, RISC-V, Golang</p>
+			<p>Proficiency: Web Development, Computer Security, Network Security, DBMS, Artificial Intelligence</p>
+			<p>Frameworks: JQuery, Bootstrap, React, Node.js, Paper.js, Numpy</p>
+			<p>Prototype: Figma, Photoshop</p><br/>
+	
+		</section>
+		<section class="right">
+			<img class = "myPic" src = "./images/UC-Berkeley-campanile..jpg" alt = "campus">
+		</section>
+	</main>
+	<footer>
+		<h2>Links</h2>
+		<a href="https://www.linkedin.com/">
+			<img src = "./images/icons/LinkedIn.png" alt = "linkedin">
+		</a>
+		<a href = "https://www.berkeley.edu/">
+			<img src = "./images/icons/cal.jpg" alt = "UC Berkeley">
+		</a>
+		<a href="http://www.chabotcollege.edu/">
+			<img src="./images/icons/Chabot College.png" alt = "Chabot College">
+		</a>
+	</footer>
+	
+</body>
+<script src = "./index.js"></script>
 </html>

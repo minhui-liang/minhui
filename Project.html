@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhui's Courses and Projects</title>
+    <meta name = "author" content="Minhui Liang">
+    <link rel = "stylesheet" href = "./style/project_style.css">
+
+</head>
+<body>
+	<!--header and nav bar-->
+	<header>
+		<h1>
+			Courses and Projects Overview
+		</h1>
+		<nav>
+			<ul>
+				<li><a href = "index.html" >Index</a></li>
+				<li><a href ="#" class="active">Courses and Projects</a></li>
+				<li><a href = "worksPreview.html">Frontend Projects Preview</a> </li>
+				<li><a href = "ContactInfo.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--courses description-->
+    <main>
+		<section class = "left myCat">
+			<h2 id = "Catalogue">Catalogue</h2>
+			<ul>
+				<li><a href="#courses">Courses Overview</a></li>
+				<li><a href="#CS61A">Project Overview</a>
+					<ul>
+						<li><a href="#CS61A">CS 61A</a></li>
+						<li><a href="#CS61BL">CS 61BL</a></li>
+						<li><a href="#CS61C">CS 61C</a></li>
+						<li><a href="#CS188">CS 188</a></li>
+						<li><a href="#CS186">CS W186</a></li>
+						<li><a href="#CS161">CS 161</a></li>
+						<li><a href="#CS160">CS 160</a></li>
+					</ul>
+				</li>
+					
+			</ul>
+		</section>
+		<section class="right">
+			<img src = "images/VC_SpotlightBerkeley_Hero_Stock_RF_149303390_1280x640.jpg">
+		</section>
+		<section id = "courses">
+			<table>
+				<tr >
+					<th colspan="4">Courses Overview</th>	
+				</tr>
+				<tr>
+					<th>Type</th>
+					<th>Courses Code</th>
+					<th>Name</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td rowspan="6">Backend</td>
+					<td>CS 61A</td>
+					<td>The Structure and Interpretation of Computer Programs</td>
+					<td>An introduction to programming and computer science focused on abstraction techniques as means 
+						to manage program complexity. Techniques include procedural abstraction; control abstraction 
+						using recursion, higher-order functions, generators, and streams; data abstraction using interfaces, 
+						objects, classes, and generic operators; and language abstraction using interpreters and macros. The 
+						course exposes students to programming paradigms, including functional, object-oriented, and 
+						declarative approaches. It includes an introduction to asymptotic analysis of algorithms. There are 
+						several significant programming projects.</td>
+				</tr>
+				<tr>
+					<td>CS 61BL</td>
+					<td>Data Structures</td>
+					<td>Fundamental dynamic data structures, including linear lists, queues, trees, and other linked 
+						structures; arrays strings, and hash tables. Storage management. Elementary principles of software 
+						engineering. Abstract data types. Algorithms for sorting and searching. Introduction to the Java 
+						programming language.</td>
+				</tr>
+				<tr>
+					<td>CS 61C</td>
+					<td>Great Ideas of Computer Architecture (Machine Structures)</td>
+					<td>The internal organization and operation of digital computers. Machine architecture, support for 
+						high-level languages (logic, arithmetic, instruction sequencing) and operating systems (I/O, 
+						interrupts, memory management, process switching). Elements of computer logic design. Tradeoffs 
+						involved in fundamental architectural design decisions.</td>
+				</tr>
+				<tr>
+					<td>CS 188</td>
+					<td>Introduction to Artificial Intelligence</td>
+					<td>Ideas and techniques underlying the design of intelligent computer systems. Topics include search, 
+						game playing, knowledge representation, inference, planning, reasoning under uncertainty, machine 
+						learning, robotics, perception, and language understanding.</td>
+				</tr>
+				<tr>
+					<td>CS W186</td>
+					<td>Introduction to Database Systems</td>
+					<td>Broad introduction to systems for storing, querying, updating and managing large 
+						databases. Computer science skills synthesizing viewpoints from low-level systems 
+						architecture to high-level modeling and declarative logic. System internals, 
+						including the complex details of query optimization and execution, concurrency 
+						control, indexing, and memory management. More abstract issues in query languages 
+						and data modeling – students are exposed to formal relational languages, SQL, 
+						full-text search, entity-relationship modeling, normalization, and physical database 
+						design. Recent technological trends in the field, including “Big Data” programming 
+						libraries like MapReduce, and distributed key-value stores with various consistency 
+						models.</td>
+				</tr>
+				<tr>
+					<td>CS 161</td>
+					<td>Computer Security</td>
+					<td>Introduction to computer security. Cryptography, including encryption, authentication, 
+						hash functions, cryptographic protocols, and applications. Operating system security, 
+						access control. Network security, firewalls, viruses, and worms. Software security, 
+						defensive programming, and language-based security. Case studies from real-world 
+						systems.</td>
+				</tr>
+				<tr>
+					<td>Frontend</td>
+					<td>CS 160</td>
+					<td>User Interface Design and Development</td>
+					<td>CS 160 is the introductory course to the field of Human Computer Interaction (HCI). 
+						In this class, students will learn to design, prototype and evaluate user interfaces. 
+						Unlike most classes, CS 160 will not focus on any particular set of algorithmic techniques, 
+						instead students will learn techniques for user-centered interface design (e.g., prototyping, 
+						contextual inquiry, heuristic evaluation etc).</td>
+				</tr>
+
+			</table>
+		</section>
+		<section id = "CS61A">
+			<h2 class="courseNames">CS61A The Structure and Interpretation of Computer Programs</h2><br/>
+			<h3>Project 1: The Game of Hog</h3>
+			<p>
+				Two players alternate turns trying to 
+				be the first to end a turn with at least 100 total points. On each turn, 
+				the current player chooses some number of dice to roll, up to 10. That player's
+				 score for the turn is the sum of the dice outcomes.
+			</p><br/>
+			<h3>Project 2:Autocorrected Typing Software</h3>
+			<p>
+				This project need us to implement the typing speed measurement which is inspired by Type Racer. 
+				Additionally, we need to implement typing autocorrect, which is a feature that attempts to correct 
+				 the spelling of a word after a user types it.
+			</p><br/>
+			<h3>Project 3: Ants Vs. SomeBees</h3>
+			<p>
+				This is an interesting project. It is a a tower defense game which is 
+				inspired by PopCap Games' Plants Vs. Zombies.As the ant queen, we populate our colony 
+				with the bravest ants you can muster. Our ants must protect their queen from the evil 
+				bees that invade our territory.
+			</p><br/>
+			<h3>Project 4: Scheme Interpreter</h3>
+			<p>
+				In this project, we implement an interpreter for a subset of the Scheme language. Scheme 
+				is a simple but great functional language. The interpreter can take either Scheme expressions 
+				or scm files and output expected results. I learned that transfers Python to Scheme as well as 
+				other programming languages is feasible and they are actually powerful.
+			</p>
+
+		</section>	
+		
+		<section id = "CS61BL">
+			<h2 class="courseNames">CS61BL Data Structures</h2><br/>
+			<h3>Project 1: Deques</h3>
+			<p>
+				In this project, we will build implementations of a “Double Ended Queue” using both 
+				linked lists and arrays. This project will also introduce you to the idea that when 
+				you are implementing a data structure that adheres to some public API (application 
+				programming interface) there will be multiple ways to do so. 
+			</p><br/>
+			<h3>Project 2: Gitlet</h3>
+			<p>
+				In this project you’ll be implementing a version-control system that mimics some 
+				of the basic features of the popular system Git. Ours is smaller and simpler, 
+				however, so we have named it Gitlet.
+				In this project I need to implemented the following functionality:
+				
+				Saving the contents of entire directories of files. In Gitlet, this is called committing, 
+				and the saved contents themselves are called commits.
+				<br/>
+				Restoring a version of one or more files or entire commits. In Gitlet, this is called 
+				checking out those files or that commit.</br>
+				Viewing the history of our backups. In Gitlet, we view this history in something called the log.</br>
+				Maintaining related sequences of commits, called branches.</br>
+				Merging changes made in one branch into another.</br>
+			</p><br/>
+			<h3>Project 3: Bear Maps</h3>
+			<p>
+				This is an interesting project.  It is a web mapping application inspired by Alan’s time on the Google Maps 
+				team and the OpenStreetMap project, from which the tile images and map feature data was downloaded.In this project, 
+				we build the “smart” pieces of a web-browser based Google Maps clone. In this project we were implementing and extending 
+				a few data structures and algorithms in this class. Namely, we implemented a -d tree, extend our MinHeapPQ, and implement the A* algorithm.
+			</p><br/>
+
+		</section>
+		
+		<section id = "CS61C">
+			<h2 class="courseNames">CS61C Great Ideas of Computer Architecture (Machine Structures)</h2><br/>
+			<h3>Project 1: Game of Life</h3>
+			<p>
+				This is a programme to introduce the C language. In this project, we will build 
+				implementations of translating the digital file to a picture. 
+			</p><br/>
+			<h3>Project 2: Classify</h3><br/>
+			<p>
+				Use RISC-V assembly language to implement matrix operations.
+			</p><br/>
+			<h3>Project 3: CPU</h3><br/>
+			<p>
+				Using Logism software to design/simulate a fully functioning cpu, 
+				which supports RISC-V assembly language. Support pipelining, bubbling, 
+				and support many program. But not supporting reduced command.
+			</p><br/>
+			<h3>Project 4: Numc</h3>
+			<p>
+				Utilizing multithreading and pragma, loop unrolling, cache blocking, 
+				temporal/spatial locality to implement a program for which enhance the performance 
+				of naive O(n^3) matrix multiplication. Compare with the most naive implementation of 
+				matrix multiplication, we achieve an about 200 times faster running time, and 1500 times 
+				faster matrix pow. And around 5 times faster matrix other operations.
+			</p><br/>
+
+		</section>
+		
+		<section id = "CS188">
+			<h2 class="courseNames">CS188 Project</h2>
+			<h3>Project 1: Search</h3>
+			<p>
+				In this project, our Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. 
+				We will build general search algorithms and apply them to Pacman scenarios.
+			</p><br/>
+
+			<h3>Project 2: Multi-Agent Search</h3>
+			<p>
+				In this project, we design agents for the classic version of Pacman, including ghosts. Along the way, 
+				we implement both minimax and expectimax search and try our hand at evaluation function design.
+			</p><br/>
+
+			<h3>Project 3: Logic and Classical Planning</h3>
+			<p>
+				In this project, we will use/write simple Python functions 
+				that generate logical sentences describing Pacman physics, aka pacphysics. 
+				Then we will use a SAT solver, pycosat, to solve the logical inference tasks associated with 
+				planning (generating action sequences to reach goal locations and eat all the dots), 
+				localization (finding oneself in a map, given a local sensor model), mapping (building the map from scratch), and SLAM (simultaneous localization and mapping).
+			</p><br/>
+
+			<h3>Project 4: Inference in Bayes Nets</h3>
+			<p>
+				In this project, we implemented inference algorithms for Bayes Nets, specifically variable elimination and value-of-perfect-information computations. 
+				These inference algorithms will allow you to reason about the existence of invisible pellets and ghosts.
+			</p><br/>
+
+			<h3>Project 5: Machine Learning</h3>
+			<p>
+				In this project we build a neural network to classify digits, and more! This project will be an introduction to machine learning.
+			</p><br/>
+
+			<h3>Project 6: Reinforcement Learning</h3>
+			<p>
+				In this project, we implement value iteration and Q-learning. We tested our agents first on Gridworld (from class), 
+				then apply them to a simulated robot controller (Crawler) and Pacman.
+			</p><br/>
+
+		</section>
+		
+
+		<section id = "CS186">
+			<h2 class="courseNames">CS186 Introduction to Database Systems</h2><br/>
+			<h3>Project 1: sql</h3>
+			<p>
+				In this project we will be working with the commonly-used Lahman baseball 
+				statistics database (our friends at the San Francisco Giants tell us they use it!) 
+				The database contains pitching, hitting, and fielding statistics for Major League Baseball 
+				from 1871 through 2019. It includes data from the two current leagues (American and National), 
+				four other "major" leagues (American Association, Union Association, Players League, and Federal 
+				League), and the National Association of 1871-1875.
+			</p><br/>
+
+			<h3>Project 2: B+ Trees</h3>
+			<p>
+				In this project we were implementing B+ tree indices. Implemented B+ Tree leaf node creation, traversal, 
+				scans, bulkloading, and clustered/unclustered version of B+ Tree stroing.
+			</p><br/>
+
+			<h3>Project 3: Joins and Query Optimization</h3>
+			<p>
+				1.Implemented different join algorithms. i.e. Nested Loop Joins, Simple Hash joins and Grace Hash joins, External Sort, Sort Merge Joins.                                           
+				<br>2.Using System R dynamic programming, implemented a query optimzation plan to predict the least costly plan for query.
+			</p><br/>
+
+			<h3>Project 4: Concurrency</h3>
+			<p>
+				Implemented lock queuing. Including different lock level. Define diffent lock type and relationship with each other to see if they are compatible with each other. Implemented queue in order for lock scheduling.</br>
+				Implemented multigranularity and compatibility with different transactions to allow them to access the same database system concurrently with ACID properties followed. Implemented two-phase locking (i.e.) 2PL</br>
+				
+			</p><br/>
+
+			<h3>Project 5: Recovery</h3>
+			<p>
+				In this project you will implement write-ahead logging and support for savepoints, rollbacks, and ACID compliant restart recovery.
+				<br>Implement recovery scheme using logging. Define different types of transaction status to notify program what should the program do next.</br>
+				Implemented restart recovery, recover transactions after it crashed.</br>
+				
+			</p><br/>
+
+		</section>
+		<section id = "CS161">
+			<h2 class="courseNames">CS161 Project</h2>
+			<h3>Project 1:</h3>
+			<p>
+				In this project, you will be exploiting a series of vulnerable programs on a virtual machine.
+				We used the techniques of buffer overflow to steal the password from the programs. 
+			</p><br/>
+			
+			<h3>Project 2: An End-to-End Encrypted File Sharing System</h3>
+			<p>
+				Built a secure client server for file downloading and sharing</br>
+				Authenticated user login with secure cryptographic functions</br>
+				Support confidentiality, integrity, and IND-CPA properties with RSA public key encryption, RSA digital signature, and secure padding scheme.</br>
+				Ensure authenticity, integrity, and confidentiality in file communication and user login</br>
+
+			</p><br/>
+
+		</section>
+
+		
+		<a href = "#Catalogue">
+			<img src="./images/icons/up.png" alt = "top">
+		</a>
+		
+	</main>
+	
+</body>
+</html>
