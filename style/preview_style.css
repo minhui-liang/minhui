@@ -43,6 +43,8 @@ header h1{
 
 main section{
   margin: 1rem;
+  align-items: center;
+  text-align: center;
 }
   
 .active{
