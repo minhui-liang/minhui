@@ -40,6 +40,10 @@
 header h1{
     background-color: #a3a2a2;
 }
+
+main section{
+  margin: 1rem;
+}
   
 .active{
     
