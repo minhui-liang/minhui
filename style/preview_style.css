@@ -77,5 +77,23 @@ picture .fp{
         flex-direction: column;
       }
 
+      picture .p3{
+        width: 80%;
+        height: 60%;
+        margin:1rem;
+      }
+      
+      picture .p4{
+        width: 80%;
+        height: 60%;
+        margin:1rem;
+      }
+      
+      picture .fp{
+        width: 45%;
+        height: 70%;
+        margin: 1rem;
+      }
+
     
   }
