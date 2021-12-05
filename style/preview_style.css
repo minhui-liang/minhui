@@ -48,6 +48,8 @@ main{
 
 main section.left {
   flex: 3 1 200px;
+  text-align: left;
+  margin:2rem;
 }
 
 main section{
