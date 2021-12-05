@@ -47,19 +47,30 @@ main section{
 }
 
 main section.left {
+  text-align: left;
   margin-left: 2rem;
 }
 
+main section ul li{
+  list-style-type: none;
+}
+
+main section ul li a{
+  color:rgb(2, 2, 19);
+  text-decoration: none;
+}
 
 main section ul li ul li a:hover{
-  background-color: darkblue;
+  background-color: hsl(240, 52%, 28%);
   color:white;
 }
 
-main section ul li ul li a{
-  text-decoration: none;
+.myCat{
+  font-size: 1.5rem;
+  color:rgb(255, 185, 80);
 }
-  
+
+
 .active{
     
     color: #fcf8f8;
