@@ -52,19 +52,19 @@ main section{
     color: #fcf8f8;
   }
 
-.p3{
+picture .p3{
   width: 50%;
-  height: fit-content;
+  height: 30%;
 }
 
-.p4{
+picture .p4{
   width: 50%;
-  height: fit-content;
+  height: 30%;
 }
 
-.fp{
+picture .fp{
   width: 20%;
-  height: fit-content;
+  height: 35%;
 }
 
 
