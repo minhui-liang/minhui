@@ -42,7 +42,7 @@ header h1{
 }
 
 main section{
-  margin: 1rem;
+  margin: 2rem;
   align-items: center;
   text-align: center;
 }
@@ -51,6 +51,22 @@ main section{
     
     color: #fcf8f8;
   }
+
+picture .p3{
+  width: 50%;
+  height: fit-content;
+}
+
+picture .p4{
+  width: 50%;
+  height: fit-content;
+}
+
+picture .fp{
+  width: 20%;
+  height: fit-content;
+}
+
 
   @media screen and (max-width:1100px){
     header nav ul{
