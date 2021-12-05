@@ -132,6 +132,18 @@ main a img:hover{
   opacity: 50%;
 }
 
+footer img{
+  width: 75px;
+  height: 75px;
+  object-fit:cover;
+  margin: 1.5rem;
+}
+
+footer h2{
+  color:rgb(255, 185, 80);
+  margin-left: 1rem;
+}
+
 @media screen and (max-width: 1100px) {
   main section.right{
     display:flex;
@@ -161,4 +173,13 @@ main a img:hover{
     left:80vw;
     top:80vh;
   }
+
+  footer img{
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    margin: 1rem;;
+  }
+
+
 }
