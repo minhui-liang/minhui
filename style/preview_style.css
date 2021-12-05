@@ -55,6 +55,23 @@ main section{
   align-items: center;
   text-align: center;
 }
+
+main section ul li a{
+  
+  color: rgb(2, 2, 19);
+  text-decoration: none;
+}
+
+main section ul li a:hover{
+  background-color: hsl(240, 52%, 28%);
+  color: rgb(238, 238, 240);
+  
+}
+
+main section ul li ul li a{
+  
+  margin-left: 2rem;
+}
   
 .active{
     
