@@ -41,6 +41,15 @@ header h1{
     background-color: #a3a2a2;
 }
 
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section.left {
+  flex: 3 1 200px;
+}
+
 main section{
   margin: 2rem;
   align-items: center;
