@@ -53,18 +53,21 @@ main section{
   }
 
 picture .p3{
-  width: 50%;
+  width: 45%;
   height: 30%;
+  margin:1rem;
 }
 
 picture .p4{
-  width: 50%;
+  width: 45%;
   height: 30%;
+  margin:1rem;
 }
 
 picture .fp{
   width: 20%;
   height: 35%;
+  margin: 1rem;
 }
 
 
