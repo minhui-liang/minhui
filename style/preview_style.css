@@ -41,7 +41,24 @@ header h1{
     background-color: #a3a2a2;
 }
 
+main section{
+  text-align: center;
+  align-items: center;
+}
 
+main section.left {
+  margin-left: 2rem;
+}
+
+
+main section ul li ul li a:hover{
+  background-color: darkblue;
+  color:white;
+}
+
+main section ul li ul li a{
+  text-decoration: none;
+}
   
 .active{
     
@@ -79,6 +96,8 @@ footer h2{
 }
 
 
+
+
   @media screen and (max-width:1100px){
     header nav ul{
         display: flex;
@@ -86,20 +105,20 @@ footer h2{
       }
 
       picture .p3{
-        width: 80%;
-        height: 60%;
+        width: 80vw;
+        height: 60vh;
         margin:1rem;
       }
       
       picture .p4{
-        width: 80%;
-        height: 60%;
+        width: 80vw;
+        height: 60vh;
         margin:1rem;
       }
       
       picture .fp{
-        width: 45%;
-        height: 70%;
+        width: 45vw;
+        height: 70vh;
         margin: 1rem;
       }
 
